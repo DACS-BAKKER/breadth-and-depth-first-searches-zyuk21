@@ -14,12 +14,12 @@ There are two private utility classes I used to solve this problem.
 
 ```java
 private static class State {
-		// Represent the Sudoku board
+	// Represent the Sudoku board
   	private int[][] board;
   	// Keeps track of tested numbers of this iteration of the board state
   	private boolean[] usedNums;
   	// Constructor
-		State(int[][] board) {...}
+	State(int[][] board) {...}
 }
 ```
 
@@ -27,11 +27,11 @@ State is the object used when adding to Stacks and Queues. It also stores a `boo
 
 ```java
 private static class Location {
-		// x and y coordinates of location
-    private int x;
-    private int y;
-		// Constructor
-    Location(int x, int y) {...}
+	// x and y coordinates of location
+   	private int x;
+    	private int y;
+	// Constructor
+    	Location(int x, int y) {...}
 }
 ```
 

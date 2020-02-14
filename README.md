@@ -59,11 +59,11 @@ A DFS problem I found online [here](https://practice.geeksforgeeks.org/problems/
 
 ```Java
 int grid[][] = {
-		{ 1, 1, 0, 0, 0 },
-		{ 0, 1, 0, 0, 1 },
-		{ 1, 0, 0, 1, 1 },
-		{ 0, 0, 0, 0, 0 },
-		{ 1, 0, 1, 0, 1 }
+	{ 1, 1, 0, 0, 0 },
+	{ 0, 1, 0, 0, 1 },
+	{ 1, 0, 0, 1, 1 },
+	{ 0, 0, 0, 0, 0 },
+	{ 1, 0, 1, 0, 1 }
 };
 ```
 
@@ -75,11 +75,11 @@ A BFS problem I found online [here](https://www.techiedelight.com/find-shortest-
 
 ```java
 char[][] grid = {
-		{'O', 'M', 'O', 'O', 'X'},
-		{'O', 'X', 'X', 'O', 'M'},
+	{'O', 'M', 'O', 'O', 'X'},
+	{'O', 'X', 'X', 'O', 'M'},
   	{'O', 'O', 'O', 'O', 'O'},
-		{'O', 'X', 'X', 'X', 'O'},
-		{'O', 'O', 'M', 'O', 'O'},
-		{'O', 'X', 'X', 'M', 'O'}
+	{'O', 'X', 'X', 'X', 'O'},
+	{'O', 'O', 'M', 'O', 'O'},
+	{'O', 'X', 'X', 'M', 'O'}
 };
 ```
